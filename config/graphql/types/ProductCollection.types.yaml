@@ -1,0 +1,8 @@
+ProductCollection:
+    type: object
+    config:
+        description: "Product list"
+        fields:
+            products:
+                type: "[Product]"
+                description: "products"
